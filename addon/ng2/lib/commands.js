@@ -7,6 +7,7 @@ module.exports = function() {
       'lint'      : require('../commands/lint'),
       'format'    : require('../commands/format'),
       'version'   : require('../commands/version'),
-      'completion': require('../commands/completion')
+      'completion': require('../commands/completion'),
+      'build'     : require('../commands/build')
     };
 };
